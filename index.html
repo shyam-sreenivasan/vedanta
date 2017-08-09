@@ -27,7 +27,7 @@
 			min-height:40em;
 			width:100%;
 			height:94%;
-			background-color:#ffffff; /**/
+			background-color: rgba(255,255,255,0.7); /**/
 			padding:0;
 		}
 		
@@ -87,13 +87,15 @@
 			.quote{
 				width:100%;
 				height:4em;
-				background-color:#eeeeee;
+				background-color:grey;
 				position:relative;
 				top:-1.4em;
 				padding:0.005em;
 				padding-left:0.5em;
 				padding-right:0.5em;
 				word-wrap: break-word;
+				color:white;
+				opacity:0.8;
 				
 				
 			}
@@ -119,6 +121,17 @@
 				bottom:0;
 				padding:0.5em;
 				opacity:0.9;
+			}
+		.bg-2{
+				position:absolute;
+				top:0em;
+				width:100%;
+				height:100%;
+				background:url('open.jpg') no-repeat;
+				background-size:cover;
+				background-position:center;
+				opacity:0.6;
+				z-index:-999;
 			}
 	</style>
 	<body>
@@ -162,7 +175,9 @@
 			<div class="footer">
 				<center><h4 style="color:#eee"><i>2017 all rights reserved. Vedanta Peetam</i></h4>
 			</div>
-		
+		<div class="container-fluid bg-2">
+				
+			</div>
 		
 	</body>
 </html>
